@@ -10,7 +10,7 @@ def get_info():
     track = request.args.get('track')
     current_day = datetime.datetime.utcnow().strftime('%A')
     utc_time = datetime.datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
-    github_file_url = "https://github.com/username/repo/blob/main/file_name.ext"
+    github_file_url = "https://github.com/DonaldEOgbame/tano/blob/main/main.py"
     github_repo_url = "https://github.com/DonaldEOgbame/tano"
     status_code = 200
 
